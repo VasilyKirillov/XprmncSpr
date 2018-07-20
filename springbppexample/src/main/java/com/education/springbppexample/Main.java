@@ -8,6 +8,6 @@ public class Main {
     public static void main(String[] args) {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("context.xml");
         WeatherForecaster forecaster = applicationContext.getBean(WeatherForecaster.class);
-        System.out.println(forecaster);
+
     }
 }
